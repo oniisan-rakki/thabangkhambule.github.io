@@ -12,19 +12,67 @@
             <nav id="desktop-nav">
                 <a href="#" class="logo">Thabang Khambule</a>
                 <ul class="nav-links">
-                    <li><a href="" class="nav-hover">About</a></li>
-                    <li><a href="" class="nav-hover">Experience</a></li>
-                    <li><a href="" class="nav-hover">Projects</a></li>
-                    <li><a href="" class="nav-hover">Certificates</a></li>
-                    <li><a href="" class="nav-hover">Contact</a></li>
+                    <li><a href="#about" class="nav-hover">About</a></li>
+                    <li><a href="#experience" class="nav-hover">Experience</a></li>
+                    <li><a href="#projects" class="nav-hover">Projects</a></li>
+                    <li><a href="#certificates" class="nav-hover">Certificates</a></li>
+                    <li><a href="#contact" class="nav-hover">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <nav id="hamburger-nav">
+        <!--<nav id="hamburger-nav">
             <div class="logo-mobile"></div>
             <div class="hamburger-menu"></div>
             <div class="hamburger-icon"></div>
-        </nav>
+        </nav>-->
+        <section id="profile">
+            <div class="section_picture-container">
+                <img src="./assets/me.png" alt="Thabang Khambule Profile Picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Thabang Khambule</h1>
+                <p class="section__text__p2">Frontend Developer</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact</button>
+                </div>
+                <div class="socials-container">
+                    <img src="assets/linkedin-in.svg" alt="My LinkedIn Profile" class="icon" onclick="location.href=''">
+                    <img src="assets/github.svg" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/oniisan-rakki'">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h4 class="section__text__p1">Get To Know More</h4>
+            <h2 class="title">About Me</h2>
+            <div class="section-container">
+                <div class="section__picture__container">
+                    <img src="./assets/aboutme.png" alt="Thabang Khambule Profile Picture" class="about_picture">
+                </div>
+                <div class="about-details-container">
+                    <div class="about__container">
+                        <div class="details__container"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="experience">
+            <h4 class="section__text__p1">Explore My</h4>
+            <h2 class="title">Experience</h2>
+        </section>
+        <section id="projects">
+            <h4 class="section__text__p1">Browse My Recent</h4>
+            <h2 class="title">Projects</h2>
+        </section>
+        <section id="certificates">
+            <h4 class="section__text__p1">Go to Know My Expertise</h4>
+            <h2 class="title">Certificates</h2>
+        </section>
+        <section id="contact">
+            <h4 class="section__text__p1">Get in Touch</h4>
+            <h2 class="title">Contact Me</h2>
+        </section>
         <footer></footer>
         <script src="js/script.js"></script>
     </body>

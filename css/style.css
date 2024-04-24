@@ -123,6 +123,41 @@ section {
     align-self: center;
 }
 
+.btn {
+    padding: 15px 40px;
+    margin: 5px 10px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-color-2 {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.btn-color-2:hover {
+    background-color: purple;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.btn-color-1 {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+}
+
+.btn-color-1:hover {
+    background-color: purple;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+
 .section__text__p1 {
     font-size: 18px;
     font-weight: 800;
@@ -139,7 +174,7 @@ section {
 
 .section__text__p2 {
     font-size: 1.85rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.75rem;
     font-weight: 800;
 }
 
@@ -153,7 +188,7 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     margin-bottom: 0.85rem;
 }

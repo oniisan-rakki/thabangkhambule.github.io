@@ -70,7 +70,7 @@ nav {
 
 .nav-links a {
     color: white;
-    font-weight: 600;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -125,20 +125,35 @@ section {
 
 .section__text__p1 {
     font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
     text-align: center;
 }
 
 .title {
     font-size: 3rem;
-    font-weight: 800;
-    margin-bottom: 0.75rem;
+    font-weight: 900;
+    margin-bottom: 1.25rem;
     text-align: center;
 }
 
 .section__text__p2 {
-    font-size: 1.75rem;
-    margin-bottom: 1rem;
+    font-size: 1.85rem;
+    margin-bottom: 1.25rem;
+    font-weight: 800;
+}
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 18px;
     font-weight: 700;
+    margin-bottom: 0.85rem;
 }

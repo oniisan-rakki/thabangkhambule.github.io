@@ -157,7 +157,6 @@ section {
     letter-spacing: 1.5px;
 }
 
-
 .section__text__p1 {
     font-size: 18px;
     font-weight: 800;
@@ -189,6 +188,46 @@ footer {
 footer p {
     text-align: center;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0.85rem;
 }
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 1px solid white;  
+    background: black;
+    margin: 2rem auto;
+    padding: 0.5rem 1.75rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.85rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact-info-container a:hover {
+    color: purple;
+}
+
+.contact-icon {
+    cursor: default;
+    height: 2rem;
+}
+

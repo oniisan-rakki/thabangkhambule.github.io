@@ -40,6 +40,8 @@ a, .btn {
     transition: all 300ms ease;
 }
 
+/*Desktop Navigation*/
+
 nav, 
 .nav-links {
     display: flex;
@@ -80,7 +82,7 @@ nav {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 100vh;
     margin: 0 75px;
     box-sizing: border-box;
     min-height: fit-content;
@@ -110,10 +112,8 @@ section {
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50%;
+    cursor: pointer;
+    height: 2rem;
 }
 
 .section__text {
@@ -178,7 +178,7 @@ section {
 }
 
 footer {
-    height: 26vh;
+    height: 28vh;
     margin: 0 1rem;
     text-align: center;
     align-self: center;
@@ -191,6 +191,15 @@ footer p {
     font-weight: 700;
     margin-bottom: 0.85rem;
 }
+
+footer nav {
+    padding: 10px 315px;
+    justify-content: space-between;
+    align-items: center;
+    height: 17.5vh;
+    margin: 20px 0px;
+}
+
 
 #contact {
     display: flex;
@@ -206,14 +215,14 @@ footer p {
     border: 1px solid white;  
     background: black;
     margin: 2rem auto;
-    padding: 0.5rem 1.75rem;
+    padding: 0.5rem 2.75rem;
 }
 
 .contact-info-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.85rem;
+    gap: 1.15rem;
     margin: 1rem;
 }
 
@@ -223,7 +232,7 @@ footer p {
 }
 
 .contact-info-container a:hover {
-    color: purple;
+    color: blueviolet;
 }
 
 .contact-icon {
@@ -231,3 +240,73 @@ footer p {
     height: 2rem;
 }
 
+#about {
+    position: relative;
+}
+
+.section__picture__container {
+    margin: auto 0;
+}
+
+.section-container {
+    gap: 4rem;
+    height: 80%;
+}
+
+.about-details-container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-container {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.about-container,
+.details-container {
+    display: flex;
+}
+
+.about_picture {
+    border-radius: 2rem;
+    object-fit: cover;
+    width: 525px;
+    height: 585px;
+}
+
+.arrow {
+    position: absolute;
+    right: -1rem;
+    bottom: 2.5rem;
+}
+
+.details-container {
+    flex: 1;
+    padding: 1.5rem;
+    background: black;
+    border-radius: 2rem;
+    border: white 1px solid;
+    text-align: center;
+}
+
+#projects {
+    position: relative;
+}
+
+.color-container {
+    border-color: white;
+    background: black;
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+
+.project-title {
+    margin: 1rem;
+    color: white;
+}

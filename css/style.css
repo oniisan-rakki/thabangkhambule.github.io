@@ -92,6 +92,8 @@ section {
     display: flex;
 }
 
+/*profile*/
+
 #profile {
     display: flex;
     justify-content: center;
@@ -114,6 +116,7 @@ section {
 .icon {
     cursor: pointer;
     height: 2rem;
+    margin: 0.5rem 0.85rem;
 }
 
 .section__text {
@@ -177,6 +180,8 @@ section {
     font-weight: 800;
 }
 
+/*footer*/
+
 footer {
     height: 28vh;
     margin: 0 1rem;
@@ -200,6 +205,7 @@ footer nav {
     margin: 20px 0px;
 }
 
+/*contact*/
 
 #contact {
     display: flex;
@@ -238,19 +244,19 @@ footer nav {
 .contact-icon {
     cursor: default;
     height: 2rem;
+    margin: 0;
 }
+
+/*about*/
 
 #about {
     position: relative;
 }
 
-.section__picture__container {
-    margin: auto 0;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 80%;
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .about-details-container {
@@ -258,14 +264,8 @@ footer nav {
     flex-direction: column;
 }
 
-.about-container {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.about-container,
-.details-container {
+.about-containers,
+.about-details-container {
     display: flex;
 }
 
@@ -274,22 +274,31 @@ footer nav {
     object-fit: cover;
     width: 525px;
     height: 585px;
-}
-
-.arrow {
-    position: absolute;
-    right: -1rem;
-    bottom: 2.5rem;
+    margin: 30px 0px;
 }
 
 .details-container {
-    flex: 1;
     padding: 1.5rem;
+    flex: 1;
     background: black;
     border-radius: 2rem;
-    border: white 1px solid;
+    border: 1px solid white;
     text-align: center;
 }
+
+.section-container {
+    gap: 4rem;
+    height: 90%;
+}
+
+.section__text__p3 {
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*projects*/
 
 #projects {
     position: relative;
@@ -304,9 +313,44 @@ footer nav {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    object-fit: cover;
 }
 
 .project-title {
     margin: 1rem;
     color: white;
+}
+
+/*Experience*/
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    font-size: 1.85rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+}
+
+.experience-detail-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
 }

@@ -251,106 +251,261 @@ footer nav {
 
 #about {
     position: relative;
+    margin-bottom: 2vh;
+    height: 110vh;
 }
 
-.about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
+.about-container {
     display: flex;
+    justify-content: center;
+    margin-top: 4.5rem;
+    gap: 5rem;
 }
 
-.about_picture {
-    border-radius: 2rem;
+.about-img img {
+    width: 500px;
+    height: 615px;
     object-fit: cover;
-    width: 525px;
-    height: 585px;
-    margin: 30px 0px;
+    border-radius: 10%;
 }
 
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: black;
-    border-radius: 2rem;
-    border: 1px solid white;
-    text-align: center;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 90%;
-}
-
-.section__text__p3 {
-    font-size: 1.35rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+.about-text-container p {
+    font-size: 15px;
+    font-weight: 500;
     font-family: "Montserrat", sans-serif;
+    line-height: 1.75rem;
 }
 
-/*projects*/
-
-#projects {
-    position: relative;
+.about-me-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-bottom: 50px;
 }
 
-.color-container {
-    border-color: white;
+.about-me-container > div {
+    border: 1.25px solid white;
+    padding: 30px 40px;
+    border-radius: 30px; 
+    align-items: center; 
+    text-align: center;
+    width: 335px;
+    height: 250px;
+}
+
+.about-me-container > div .section__text__p1 {
+    font-size: 19.5px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-align: center;
     background: black;
-}
-
-.project-img {
-    border-radius: 2rem;
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-}
-
-.project-title {
-    margin: 1rem;
     color: white;
+} 
+
+.about-me-container > div:last-child { 
+    background: white;
+    padding: 30px 40px;
+    border-radius: 30px; 
+    align-items: center; 
+    text-align: center;
+    width: 335px;
+    height: 250px;
 }
 
-/*Experience*/
-
-#experience {
-    position: relative;
+.about-me-container > div:last-child .section__text__p1 {
+    font-size: 19.5px;
+    font-weight: 800;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    background: white;
+    color: black;
 }
 
-.experience-sub-title {
+.about-me-container > div img {
+    color: white;
+    background: black;
+    height: 2.25rem;
+    width: 2.25rem;
+    margin-bottom: 0.55rem;
+}
+
+.about-me-container > div:last-child img {
+    color: black;
+    background: white;
+    height: 2.25rem;
+    width: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.about-me-container > div p {
+    font-size: 17.5px;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+}
+
+.about-me-container > div:last-child p {
+    font-size: 17.5px;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+    background: white;
+    color: black;
+}
+
+/* Experience */
+
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+    margin-bottom: 100px;
+    margin-top: 4.5rem;
+}
+
+.experience-container > div {
+    border: 1.25px solid white;
+    padding: 40px 40px;
+    border-radius: 30px; 
+    align-items: center; 
+    text-align: center;
+    width: 620px;
+}
+
+.experience-container > div h2 {
     font-size: 1.85rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.75rem;
     font-weight: 800;
 }
 
-.experience-detail-container {
+.experience-container > div .experience-text-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    text-align: center;
 }
 
-.article-container {
+.experience-container > div .experience-text-container > div {
     display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.65rem;
+}
+
+.experience-container > div .experience-text-container > div img {
+    height: 2rem;
+    width: 2rem;
+}
+
+.experience-container > div .experience-text-container > div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.75rem;
+    margin-right: 1.5rem;
+}
+
+.experience-container > div .experience-text-container > div span {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.experience-container > div:last-child {
+    padding: 40px 40px;
+    border-radius: 30px; 
+    align-items: center; 
+    text-align: center;
+    width: 600px;
+    background: white;
+    height: 430px;
+}
+
+.experience-container > div:last-child h2 {
+    font-size: 1.85rem;
+    margin-bottom: 1.85rem;
+    font-weight: 800;
+    color: black;
+    background: white;
+}
+
+.experience-container > div:last-child .experience-text-container {
+    display: flex;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.experience-container > div:last-child .experience-text-container > div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-bottom: 1.65rem;
+    background: white;
+    color: black;
+}
+
+.experience-container > div:last-child .experience-text-container > div img {
+    height: 2rem;
+    width: 2rem;
+    background: white;
+}
+
+.experience-container > div:last-child .experience-text-container > div h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.75rem;
+    margin-right: 1.5rem;
+    background: white;
+    color: black;
+}
+
+.experience-container > div:last-child .experience-text-container > div span {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    background: white;
+    color: black;
+}
+
+/* Certificates */
+
+.certificates-container {
+    display: flex;
+    margin-top: 4.5rem;
+    justify-content: space-around;
     gap: 2.5rem;
-    justify-content: space-around;
 }
 
-article {
-    display: flex;
-    width: 10rem;
-    justify-content: space-around;
-    gap: 0.5rem;
+.certificates-container > div {
+    border: 1.25px solid white;
+    padding: 30px 20px;
+    border-radius: 20px; 
+    align-items: center; 
+    text-align: center;
+    width: 400px;
+    height: 430px;
 }
+
+.certificates-container > div img {
+    width: 92.5%;
+    border-radius: 20px; 
+    object-fit: cover;
+    height: 200px;
+    margin-bottom: 2rem;
+}
+
+.certificates-container > div h2 {
+    font-size: 21.5px;
+    font-weight: 800;
+    margin-bottom: 1.85rem;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+
+
+
+

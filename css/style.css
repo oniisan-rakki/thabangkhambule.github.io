@@ -212,6 +212,7 @@ footer nav {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    position: relative;
 }
 
 .contact-info-upper-container {
@@ -281,6 +282,7 @@ footer nav {
     justify-content: space-around;
     gap: 2rem;
     margin-bottom: 50px;
+    margin-top: 25px;
 }
 
 .about-me-container > div {
@@ -290,7 +292,7 @@ footer nav {
     align-items: center; 
     text-align: center;
     width: 335px;
-    height: 250px;
+    height: 210px;
 }
 
 .about-me-container > div .section__text__p1 {
@@ -309,7 +311,7 @@ footer nav {
     align-items: center; 
     text-align: center;
     width: 335px;
-    height: 250px;
+    height: 210px;
 }
 
 .about-me-container > div:last-child .section__text__p1 {
@@ -469,6 +471,11 @@ footer nav {
     color: black;
 }
 
+#experience {
+    position: relative;
+    margin-bottom: 4vh;
+}
+
 /* Certificates */
 
 .certificates-container {
@@ -503,6 +510,12 @@ footer nav {
     text-align: center;
     background: black;
     color: white;
+}
+
+#certificates {
+    position: relative;
+    height: 200vh;
+    margin-bottom: 1.5vh;
 }
 
 /* Projects */
@@ -547,6 +560,8 @@ footer nav {
 
 #projects {
     margin-bottom: 17.5vh;
+    position: relative;
+    height: 192.5vh;
 }
 
 
